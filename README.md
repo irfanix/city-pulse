@@ -1,16 +1,14 @@
 [README.md](https://github.com/user-attachments/files/33026954/README.md)
-# city-pulse
- A short, clear sentence like "A mobile-first web app for reporting and prioritizing urban infrastructure problems."
 # City Pulse 🏙️
 
 **Which broken street should the city fix first?**
 Citizen photos in. A ranked, forecast-backed repair plan out.
 
-🏆 **2nd Runner-Up, SYNK SOLVE One Ideathon 2026** (Synk-F Community, 24 to 25 September 2026)
+ **2nd Runner-Up, SYNK SOLVE One Ideathon 2026** (Synk-F Community, 24 to 25 September 2026)
 Challenge: *SMART-01, Predictive Maintenance from Citizen-Captured Infrastructure Data*
 
 🔗 **Live demo:** https://fancy-marigold-90da44.netlify.app/
-📱 Also packaged as an Android APK. Open the **Stats** tab and tap **▶ Quick tour** for a 1-minute walkthrough.
+ Also packaged as an Android APK. Open the **Stats** tab and tap **▶ Quick tour** for a 1-minute walkthrough.
 
 ---
 
@@ -25,24 +23,24 @@ The same pothole gets reported 11 times and jumps the queue, while a blocked dra
 City Pulse is a single-page web app (also an Android APK) with two views: one for **citizens** and one for the **city team**.
 
 ### For citizens
-- 📷 **Report in seconds**: photo, description, and location (GPS or tap on the map)
-- ✨ **Smart assist**: suggests the problem type and severity from the description (works offline, understands English and Indonesian keywords)
-- 🔗 **Duplicate check**: warns if the same problem was already reported within 150 m and merges it as a confirmation
-- 👍 **"I see this too"**: confirm someone else's report to raise its priority
-- 📋 **My Reports**: follow each report through Received → Visit booked → Crew sent → Fixed → Confirmed
-- ✅ **Close the loop**: see before and after photos and confirm whether the fix really held; a failed fix reopens the problem and moves it up the queue
+- **Report in seconds**: photo, description, and location (GPS or tap on the map)
+- **Smart assist**: suggests the problem type and severity from the description (works offline, understands English and Indonesian keywords)
+- **Duplicate check**: warns if the same problem was already reported within 150 m and merges it as a confirmation
+- **"I see this too"**: confirm someone else's report to raise its priority
+- **My Reports**: follow each report through Received → Visit booked → Crew sent → Fixed → Confirmed
+- **Close the loop**: see before and after photos and confirm whether the fix really held; a failed fix reopens the problem and moves it up the queue
 
 ### For the city team
-- 🗺️ **Interactive map** with clustered pins and four layers: Pins, Risk, Heat, and busy Places
-- 🔴 **Priority queue** sorted by most urgent, getting worse, most severe, waiting longest, most reported, or most overdue
-- ⏰ **Emergency forecast**: estimated days until each problem reaches emergency level, with a decay chart
-- 📊 **Explainable score**: every problem shows exactly why it ranks where it does
-- 💸 **Cost of waiting**: repair cost now vs as an emergency
-- 🧭 **Today's Crew Plan**: picks the jobs with the most priority per kilometre for one shift, filtered by crew type, and compares it side by side with a "most reported first" plan
-- 🌧️ **Weather-aware**: pulls the 7-day rain forecast from Open-Meteo; a storm simulation shows how rain pushes drains, potholes and trees up the queue
-- 🔍 **Field checks that teach the model**: when a crew records the real severity, the app compares it with its forecast and adjusts how fast that type of damage is assumed to grow
-- 🕳️ **Blind spots**: flags busy places (hospitals, stations, markets) with no recent reports and no recent inspection
-- ⏱ **Fix targets (SLA)** per priority level, with overdue tracking
+- **Interactive map** with clustered pins and four layers: Pins, Risk, Heat, and busy Places
+- **Priority queue** sorted by most urgent, getting worse, most severe, waiting longest, most reported, or most overdue
+- **Emergency forecast**: estimated days until each problem reaches emergency level, with a decay chart
+- **Explainable score**: every problem shows exactly why it ranks where it does
+- **Cost of waiting**: repair cost now vs as an emergency
+- **Today's Crew Plan**: picks the jobs with the most priority per kilometre for one shift, filtered by crew type, and compares it side by side with a "most reported first" plan
+- **Weather-aware**: pulls the 7-day rain forecast from Open-Meteo; a storm simulation shows how rain pushes drains, potholes and trees up the queue
+- **Field checks that teach the model**: when a crew records the real severity, the app compares it with its forecast and adjusts how fast that type of damage is assumed to grow
+- **Blind spots**: flags busy places (hospitals, stations, markets) with no recent reports and no recent inspection
+- **Fix targets (SLA)** per priority level, with overdue tracking
 
 ## How the Ranking Works
 
@@ -101,16 +99,10 @@ To use your own city, edit the `CONFIG` block near the top of the main script (c
 
 > **Note:** the app starts with simulated demo reports around Bengaluru so the ranking, forecast and crew plan can be explored right away. The "GPS location" button needs HTTPS or localhost.
 
-## Roadmap
-
-- ✅ **Phase 1 (Sep 2026):** working prototype
-- **Phase 2:** 6-month pilot in one Bengaluru ward with real complaint data, measuring time to fix against today
-- **Phase 3:** city-wide, then other cities, adding photo AI at scale, Kannada and Hindi, WhatsApp reporting, and cameras on city vehicles
 
 ## Team
 
-**Irfan Dawood** (Team Lead), BCA student at Enlight Degree College, Bengaluru · [LinkedIn](https://linkedin.com/in/[username])
-**Shaik Sahil** (Member)
+**Irfan Dawood** (Team Lead), BCA student at Enlight Degree College, Bengaluru ·
 
 ## Credits
 
