@@ -1,5 +1,5 @@
 [README.md](https://github.com/user-attachments/files/33026954/README.md)
-# City Pulse 🏙️
+# City Pulse 
 
 **Which broken street should the city fix first?**
 Citizen photos in. A ranked, forecast-backed repair plan out.
